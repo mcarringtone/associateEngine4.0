@@ -4,9 +4,9 @@ const Intern = require("../lib/Intern");
 test("Can create school.", () => {
   const testSchool = "School Name";
   const employeeInstance = new Intern(
-    "James",
+    "Carrington",
     2,
-    "jamesljenks@gmail.com",
+    "Carrington@gmail.com",
     testSchool
   );
   expect(employeeInstance.school).toBe(testSchool);
@@ -15,9 +15,9 @@ test("Can create school.", () => {
 test("Testing officeNumber will return office number.", () => {
   const testSchool = "School Name";
   const employeeInstance = new Intern(
-    "James",
+    "Carrington",
     2,
-    "jamesljenks@gmail.com",
+    "Carrington@gmail.com",
     testSchool
   );
   expect(employeeInstance.getSchool()).toBe(testSchool);
@@ -26,9 +26,9 @@ test("Testing officeNumber will return office number.", () => {
 test("Testing role.", () => {
   const returnValue = "Intern";
   const employeeInstance = new Intern(
-    "James",
+    "Carrington",
     2,
-    "jamesljenks@gmail.com",
+    "Carrington@gmail.com",
     "School Name"
   );
   expect(employeeInstance.getRole()).toBe(returnValue);
